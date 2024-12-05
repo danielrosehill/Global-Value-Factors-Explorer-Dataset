@@ -6,11 +6,11 @@ tags:
   - environment
   - sustainability
   - economics
-license: "CC-BY-4.0"
+license: other
+license_name: "Proprietary License"
+license_link: ./license.md
 task_categories:
-  - environmental_analysis
-  - cost_benefit_analysis
-
+  - other
 ---
 
 ## Dataset Description
