@@ -1,16 +1,9 @@
 ---
-language: 
-  - en
-pretty_name: "IFVI Value Factors - Derivative Dataset For Analysis"
-tags: 
-  - environment
-  - sustainability
-  - economics
-license: other
-license_name: "Proprietary License"
-license_link: ./license.md
-task_categories:
-  - other
+language:
+- en
+pretty_name: IFVI Value Factors - Derivative Dataset For Analysis
+size_categories:
+- 1K<n<10K
 ---
 
 ## Dataset Description
