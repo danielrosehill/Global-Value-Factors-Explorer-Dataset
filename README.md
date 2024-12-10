@@ -2,13 +2,12 @@
 language:
 - en
 pretty_name: IFVI Value Factors - Derivative Dataset For Analysis
-size_categories:
-- 1K<n<10K
+
 ---
 
 # What if companies' environmental impacts could be quantified in monetary terms!?
 
-This repository contains a derivative set of data derived from the Global Value Factors Database (GVFD) as published by the International Foundation for Valuing Impacts (IFVI) and released during UN Climate Week NYC 2023 [press release](https://ifvi.org/news/recap-of-valuing-impacts-to-make-better-decisions-a-climate-week-nyc-2024-event/).
+This repository contains a derivative set of data derived from the Global Value Factors Database (GVFD) as published by the International Foundation for Valuing Impacts (IFVI) and released during UN Climate Week NYC 2023 ([press release])(https://ifvi.org/news/recap-of-valuing-impacts-to-make-better-decisions-a-climate-week-nyc-2024-event/).
 
 This derivative data set is simply a reformulation of the first version of the database as released by IFVI. 
 
