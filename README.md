@@ -34,31 +34,7 @@ The CSV files should provide the flexibility for users to work with the data as 
 
 Use of the value factors is governed in accordance with the licensing terms provided by the IFVI (which, at the time of writing, provide for free usage for individual account preparers and non-commercial users.) Those looking to read the full official licence should refer to the website of the IFVI at www.ifvi.org 
 
-## What are value factors?
-
-"Value factors" convert quantity metrics (e.g., tons of CO2 emitted) into monetary terms. The GVFD uses US dollars for standardization but is intended for global use regardless of the reporting entity's local currency.
-
-## Using This Data
-
-The IFVI data should be interpreted alongside its official methodology papers and documentation, available on the [IFVI website](https://www.ifvi.org). Static versions of these documents are included in this repository *solely for data provenance* and should **not** be considered official or authoritative.
-
-This derivative dataset recognizes the growing movement to prioritize and define value creation based on a company's impact.
-
-The GVFD was released by the IFVI with the following note:
-
-*"To drive adoption of impact accounting and meet market needs as soon as possible, IFVI is making available four interim environmental methodologies, prior to completing an official methodology oversight process, including the VTPC Review and Due Process."*
-
-## What's in this Repository?
-
-This derivative dataset is based on Version 1 (October 2024) of the GVFD and currently includes only environmental value factors.  The topics, developed by the IFVI in partnership with the Value Balancing Alliance (VBA), are:
-
-* **Air Pollution:** Impacts of up to six air pollutants on human health, agricultural productivity, and other areas.
-* **Land Use and Conversion:** Impacts of land occupation or conversion, including loss of ecosystem services across different locations and land use types.
-* **Waste:** Impacts of waste generation and disposal methods (e.g., incineration, landfill), including impacts on leachate, disamenity, climate change, and air pollution.
-* **Water Pollution:** Impacts of 104 potential water pollutants on human health and eutrophication.
-
-
-## Licensing
+ ## Licensing
 
 This derivative dataset is subject to the same terms of use as the original database, available in `license.md` at the repository root.
 
@@ -96,13 +72,8 @@ No material data changes were made.  Modifications are limited to formatting and
 
 [![View Website](https://img.shields.io/badge/View-Website-blue)](https://www.ifvi.org)
 
-
----
-
 ## Author (Repository / Derivative Dataset)
 
 - Daniel Rosehill  
 
 [![View Website](https://img.shields.io/badge/View-Website-green)](https://danielrosehill.com)
-
-
