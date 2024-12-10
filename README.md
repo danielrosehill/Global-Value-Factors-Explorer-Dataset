@@ -21,6 +21,10 @@ The data as released by IFVI contains a series of almost 100,000 value factors c
 
 Value factors are proposed monetary coefficients based upon the IFVI's consultation process and scientific advice. Details of their formulation are contained in the documentation that they released and which constitute important supplementary material to the data points.
 
+## What are value factors?
+
+"Value factors" convert quantity metrics (e.g., tons of CO2 emitted) into monetary terms. The GVFD uses US dollars for standardization but is intended for global use regardless of the reporting entity's local currency.
+
 ## Using This Data
 
 The IFVI data should be interpreted alongside its official methodology papers and documentation, available on the [IFVI website](https://www.ifvi.org). Static versions of these documents are included in this repository *solely for data provenance* and should **not** be considered official or authoritative.
@@ -30,20 +34,6 @@ This derivative dataset recognizes the growing movement to prioritize and define
 The GVFD was released by the IFVI with the following note:
 
 *"To drive adoption of impact accounting and meet market needs as soon as possible, IFVI is making available four interim environmental methodologies, prior to completing an official methodology oversight process, including the VTPC Review and Due Process."*
-
-## Docs for derivative database (this one)
-
-**Documentation and notes on using this *derivative* dataset, along with my personal interpretations of the GVFD, can be found at: [https://gvfd-analysis.bydanielrosehill.com/](https://gvfd-analysis.bydanielrosehill.com/)**.  Please note that these are my own interpretations and are not official IFVI materials or endorsed by them.
-
-[![Visit Website](https://img.shields.io/badge/Visit%20Website-blue)](https://gvfd-analysis.bydanielrosehill.com/)
-
----
-
-## What are value factors?
-
-"Value factors" convert quantity metrics (e.g., tons of CO2 emitted) into monetary terms. The GVFD uses US dollars for standardization but is intended for global use regardless of the reporting entity's local currency.
-
----
 
 ## What's in this Repository?
 
@@ -89,11 +79,16 @@ No material data changes were made.  Modifications are limited to formatting and
 
 ## Author (Source Database / GVFD)
 
-The International Foundation for Valuing Impacts (IFVI)
+- The International Foundation for Valuing Impacts (IFVI)
+
+[![View Website](https://img.shields.io/badge/View-Website-blue)](https://www.ifvi.org)
+
 
 ---
 
 ## Author (Repository / Derivative Dataset)
 
-Daniel Rosehill  
-(public at danielrosehill dot com)
+- Daniel Rosehill  
+
+[![View Website](https://img.shields.io/badge/View-Website-green)](https://danielrosehill.com)
+
