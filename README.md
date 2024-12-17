@@ -15,6 +15,20 @@ The Global Value Factors Database, released by the [International Foundation for
 
 The GVFD covers 430 different environmental impacts across four main categories of impact: air pollution, land use and conversion, waste and water pollution . With the exception of the value factor for greenhouse gas emissions, for which a single value factor is provided ($236/tco2e), the value factors are geographically stratified (in other words, the value factors are both impact-specific and geolocation-specific).  In total, there are 268 geolocations in the dataset reflecting all the world's recognised sovereigns as well as some international dependencies. In addition, one set of value factors, air pollution, provides data at the level of US states. 
 
+## Links to composite files
+
+The following links are to concatenated composite versions of the dataset. These are essentially aggregated versions of the data, encompassing all the various parameters across the different methodologies
+
+| Format  | Link |
+|---------|------|
+| CSV     | ![CSV](https://img.shields.io/badge/Link-CSV-blue?style=flat-square) |
+|         | [CSV File](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/composite-data/all-formats/composite_value_factors.csv) |
+| JSON    | ![JSON](https://img.shields.io/badge/Link-JSON-blue?style=flat-square) |
+|         | [JSON File](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/composite-data/all-formats/composite_value_factors.json) |
+| Parquet | ![Parquet](https://img.shields.io/badge/Link-Parquet-blue?style=flat-square) |
+|         | [Parquet File](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/composite-data/all-formats/composite_value_factors.parquet) |
+
+
 The value factors are intended for use by account preparers preparing financial statements which integrate their environmental and social impacts alongside their traditional financial impacts, unifying all their holistic impacts into one set of financial calculations  While the GVFD covers only environmental factors, a key part of the IFVI's mission is also developing methodologies for quantifying social impacts. 
 
 The main categories of impact covered in the dataset are as follows:
