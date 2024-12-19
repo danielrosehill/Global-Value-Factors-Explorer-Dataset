@@ -19,6 +19,30 @@ The Global Value Factors Database, released by the [International Foundation for
 
 The GVFD covers 430 different environmental impacts across four main categories of impact: air pollution, land use and conversion, waste and water pollution . With the exception of the value factor for greenhouse gas emissions, for which a single value factor is provided ($236/tco2e), the value factors are geographically stratified (in other words, the value factors are both impact-specific and geolocation-specific).  In total, there are 268 geolocations in the dataset reflecting all the world's recognised sovereigns as well as some international dependencies. In addition, one set of value factors, air pollution, provides data at the level of US states. 
 
+## Key Data Parameters
+
+Okay, here's the table without a header row and with the requested changes:
+
+| Parameter             | Value/                                                                                               |
+|----------------------|---------------------------------------------------------------------------------------------------------------------|
+| Value Factors        | Almost 100,000 "value factors" for converting quantitative environmental data into monetary equivalents (USD)          |
+| Geolocations         | 268 geolocations (world sovereigns plus US states - for air pollution methodology only)                               |
+| Impacts Covered      | Air pollution; GHG emissions; land use and conversion; water use and pollution; waste.                            |
+| Parameter Source Data| Global Value Factors Database as released by the International Foundation for Valuing Impacts in September 2024      |
+| License              | Licensing in accordance with IFVI, [license link](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/download-form-global-value-factor-database/) |
+
+
+
+## Impact Categories In Dataset
+
+| Category                 | Description                                                                                                                                                                   |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Air Pollution            | Impacts from up to 6 possible air pollutants of companies on health, agricultural productivity, and other impacts.                                                                   |
+| Land Use and Conversion  | Impacts on land occupied or converted by a company, covering the loss of ecosystem services in different locations and for different land use types.                              |
+| Waste                    | Impacts from the mass of waste generated and disposed of by various methods (such as incineration and waste to landfill), including impacts on leachate, disamenity, climate change and air pollution.|
+| Water Pollution          | Impacts from 104 possible corporate water pollutants on human health and eutrophication.                                                                                     |
+
+
 <a id="links-to-composite-files"></a>
 ## 🔗 Links to Composite Files
 
@@ -32,16 +56,7 @@ The following links are to concatenated composite versions of the dataset. These
 
 The value factors are intended for use by account preparers preparing financial statements which integrate their environmental and social impacts alongside their traditional financial impacts, unifying all their holistic impacts into one set of financial calculations  While the GVFD covers only environmental factors, a key part of the IFVI's mission is also developing methodologies for quantifying social impacts. 
 
-The main categories of impact covered in the dataset are as follows:
-
-| Impact Category        | Description                                                                                                                            |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **Air Pollution**      | Provides value factors to monetize the costs of six air pollutants linked to health, agriculture, and other impacts.                                   |
-| **Land Use and Conversion**| Provides monetary impacts for companies' roles in displacing “pristine land” for their operations. |
-| **Waste**              | Quantifies impacts from waste generation and disposal.                                                                          |
-| **Water Impacts**     | Monetizes both water consumption and pollution, covering 104 individual water pollutants.                                   |
-
-In order to fulfill their intended purpose, the value factors need to be matched with the raw quantitative environmental data which each value factor is intended to convert into monetary terms (the value factors are expressed as conversions to the US dollar).
+ In order to fulfill their intended purpose, the value factors need to be matched with the raw quantitative environmental data which each value factor is intended to convert into monetary terms (the value factors are expressed as conversions to the US dollar).
 
 This derivative dataset was prepared by me, Daniel Rosehill, in order to facilitate the exploration and analysis of this dataset by non-commercial users.  I believe that there is a strong policy interest in the question of how companies' impacts can be properly accounted for, recognising their societal and planetary effects. 
 
