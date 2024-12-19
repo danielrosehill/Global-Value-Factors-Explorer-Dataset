@@ -21,7 +21,7 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 ## Key Data Parameters
 
-| Parameter             | Value/                                                                                               |
+| Parameter             | Value                                                                                               |
 |----------------------|---------------------------------------------------------------------------------------------------------------------|
 | Value Factors        | Almost 100,000 "value factors" for converting quantitative environmental data into monetary equivalents (USD)          |
 | Geolocations         | 268 geolocations (world sovereigns plus US states - for air pollution methodology only)                               |
@@ -96,10 +96,8 @@ No material data changes were made.  Modifications are limited to formatting and
 * Standardization of 12 country names to more common versions (e.g., "Bahamas, The" to "Bahamas") and mapping all territories to their ISO-3166 Alpha-2 codes for clarity.
 
 <a id="release-notes-for-v2"></a>
+
 ## 📝 Release Notes For V2
----
-title: "Release Notes: V2, Derivative Dataset, IFVI GVFD"
----
 
 This release standardises versioning for an early iteration (V2) of the derivative database of the [IFVI Global Value Factors Database (GVFD)](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/).
 
