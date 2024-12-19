@@ -4,10 +4,6 @@ language:
 pretty_name: IFVI Value Factors - Derivative Dataset For Analysis
 ---
 
-<p align="center">
-  <img src="images/banner.webp" alt="IFVI Banner" width="80%"/>
-</p>
-
 # IFVI Value Factors - Derivative Dataset For Analysis
 
 ![alt text](images/graphics/3.png)
