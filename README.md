@@ -10,6 +10,8 @@ pretty_name: IFVI Value Factors - Derivative Dataset For Analysis
 
 # IFVI Value Factors - Derivative Dataset For Analysis
 
+![alt text](images/graphics/3.png)
+
 ## 🚀 What if companies' environmental impacts could be quantified in monetary terms!?
 
 <a id="about-the-global-value-factors-explorer-dataset"></a>
