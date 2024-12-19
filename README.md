@@ -21,8 +21,6 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 ## Key Data Parameters
 
-Okay, here's the table without a header row and with the requested changes:
-
 | Parameter             | Value/                                                                                               |
 |----------------------|---------------------------------------------------------------------------------------------------------------------|
 | Value Factors        | Almost 100,000 "value factors" for converting quantitative environmental data into monetary equivalents (USD)          |
@@ -31,7 +29,7 @@ Okay, here's the table without a header row and with the requested changes:
 | Parameter Source Data| Global Value Factors Database as released by the International Foundation for Valuing Impacts in September 2024      |
 | License              | Licensing in accordance with IFVI, [license link](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/download-form-global-value-factor-database/) |
 
-
+---
 
 ## Impact Categories In Dataset
 
@@ -42,6 +40,7 @@ Okay, here's the table without a header row and with the requested changes:
 | Waste                    | Impacts from the mass of waste generated and disposed of by various methods (such as incineration and waste to landfill), including impacts on leachate, disamenity, climate change and air pollution.|
 | Water Pollution          | Impacts from 104 possible corporate water pollutants on human health and eutrophication.                                                                                     |
 
+---
 
 <a id="links-to-composite-files"></a>
 ## 🔗 Links to Composite Files
