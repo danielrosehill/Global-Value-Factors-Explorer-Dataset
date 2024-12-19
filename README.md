@@ -1,6 +1,3 @@
-Okay, I understand. I'll revise the previous response to convert descriptions of impact categories into tables. This should make it easier to read and compare the different categories. Here's the updated README:
-
-```markdown
 ---
 language:
 - en
