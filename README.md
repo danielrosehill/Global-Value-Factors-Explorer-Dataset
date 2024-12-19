@@ -10,35 +10,6 @@ pretty_name: IFVI Value Factors - Derivative Dataset For Analysis
 
 # IFVI Value Factors - Derivative Dataset For Analysis
 
-<div align="center">
-  <a href="#about-the-global-value-factors-explorer-dataset">
-    <button>About the Dataset</button>
-  </a>
-  <a href="#links-to-composite-files">
-    <button>Composite Files</button>
-  </a>
-   <a href="#data-formatting">
-    <button>Data Formatting</button>
-  </a>
-    <a href="#data-modifications">
-    <button>Data Modifications</button>
-  </a>
-   <a href="#release-notes-for-v2">
-    <button>Release Notes (V2)</button>
-  </a>
-  <a href="#specifications">
-    <button>Specifications</button>
-  </a>
-  <a href="#sample-data">
-    <button>Sample Data</button>
-  </a>
-  <a href="#author-source-database--gvfd">
-    <button>Authors</button>
-  </a>
-</div>
-
-<br/>
-
 ## 🚀 What if companies' environmental impacts could be quantified in monetary terms!?
 
 <a id="about-the-global-value-factors-explorer-dataset"></a>
