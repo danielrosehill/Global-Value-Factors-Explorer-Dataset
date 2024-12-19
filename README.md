@@ -37,7 +37,7 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 | Category                 | Description                                                                                                                                                                   |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Air Pollution            | Impacts from up to 6 possible air pollutants of companies on health, agricultural productivity, and other impacts.                                                                   |
+| Air Pollution            | Impacts for 6 possible air pollutants of companies on health, agricultural productivity, and other impacts.                                                                   |
 | Land Use and Conversion  | Impacts on land occupied or converted by a company, covering the loss of ecosystem services in different locations and for different land use types.                              |
 | Waste                    | Impacts from the mass of waste generated and disposed of by various methods (such as incineration and waste to landfill), including impacts on leachate, disamenity, climate change and air pollution.|
 | Water Pollution          | Impacts from 104 possible corporate water pollutants on human health and eutrophication.                                                                                     |
