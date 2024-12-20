@@ -35,15 +35,19 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 ![alt text](images/graphics/4.png)
 
-| **Category Name**   | **Impacts Considered**                                                                                       | **Reporting Units** | **Geo Stratified**          |
-|----------------------|------------------------------------------------------------------------------------------------------------|---------------------|-----------------------------|
-| Air Pollution        | Metric tons of PM2.5, PM10, SOx, NOx, NH3, and VOCs per year                                              | Metric tons/year    | Yes (by country and US state) |
-| GHG Emissions        | Single globally applicable factor of $236 per ton of CO2 equivalent ($/tCO2e)                              | Metric tons/year    | No                          |
-| Land Conversion      | Land use changes in categories such as wheat, oilseeds, forestry, and paved land                          | Hectares (ha)       | Yes                         |
-| Land Use             | Types of agriculture (e.g., wheat, oilseeds), forestry, and paved land                                    | Hectares (ha)       | Yes                         |
-| Waste                | Categorized as hazardous or non-hazardous by disposal method (landfill, incineration, unspecified)         | Kilograms (kg)      | Yes                         |
-| Water Consumption    | Factors such as malnutrition, water-borne diseases, resource costs, and ecosystem effects                 | Cubic meters (m³)   | Yes                         |
-| Water Pollution      | 104 pollutants including phosphorus, nitrogen, heavy metals, pesticides, and pharmaceuticals              | Kilograms (kg)      | Yes                         |
+ Here is the updated version of the table with an additional **Description** column and the descriptions you provided:
+
+| **Category Name**   | **Description**                                                                                          | **Impacts Considered**                                                                                       | **Reporting Units** | **Geostratified**          |
+|----------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------|-----------------------------|
+| Air Pollution        | Impacts caused by air pollution, by location and specific pollutant                                    | Metric tons of PM2.5, PM10, SOx, NOx, NH3, and VOCs per year                                              | Metric tons/year    | Yes (by country and US state) |
+| GHG Emissions        | Social costs of GHG emissions                                                                          | Single globally applicable factor of 236 per ton of CO2 equivalent ($/tCO2e)                              | Metric tons/year    | No                          |
+| Land Conversion      | Displacement of land from pristine state into land for commercial activities                           | Land use changes in categories such as wheat, oilseeds, forestry, and paved land                          | Hectares (ha)       | Yes                         |
+| Land Use             | Ongoing ecosystem loss; cost due to continuing use of land for commercial purposes                     | Types of agriculture (e.g., wheat, oilseeds), forestry, and paved land                                    | Hectares (ha)       | Yes                         |
+| Waste                | Adverse effects associated with the generation and disposal of waste                                   | Categorized as hazardous or non-hazardous by disposal method (landfill, incineration, unspecified)         | Kilograms (kg)      | Yes                         |
+| Water Consumption    | Factors related to water consumption                                                                   | Factors such as malnutrition, water-borne diseases, resource costs, and ecosystem effects                 | Cubic meters (m³)   | Yes                         |
+| Water Pollution      | Impacts caused by polluting water systems divided by pollutant and setting                             | 104 pollutants including phosphorus, nitrogen, heavy metals, pesticides, and pharmaceuticals              | Kilograms (kg)      | Yes                         |
+
+ 
 
 
 ---
