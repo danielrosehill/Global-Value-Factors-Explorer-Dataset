@@ -89,9 +89,17 @@ These files are not intended for analytical workloads, but if you need to provid
 | JSON    | [![JSON](https://img.shields.io/badge/Link-JSON-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/composite-data/all-formats/composite_value_factors.json)  |
 | Parquet | [![Parquet](https://img.shields.io/badge/Link-Parquet-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/composite-data/all-formats/composite_value_factors.parquet)  |
 
+---
+
+# Value Factors - Use Case Descriptions
+
+## Impact Accounting
+
 The value factors are intended for use by account preparers preparing financial statements which integrate their environmental and social impacts alongside their traditional financial impacts, unifying all their holistic impacts into one set of financial calculations  While the GVFD covers only environmental factors, a key part of the IFVI's mission is also developing methodologies for quantifying social impacts. 
 
  In order to fulfill their intended purpose, the value factors need to be matched with the raw quantitative environmental data which each value factor is intended to convert into monetary terms (the value factors are expressed as conversions to the US dollar).
+
+ # About This Data Project (Derivative Database)
 
 This derivative dataset was prepared by me, Daniel Rosehill, in order to facilitate the exploration and analysis of this dataset by non-commercial users.  I believe that there is a strong policy interest in the question of how companies' impacts can be properly accounted for, recognising their societal and planetary effects. 
 
@@ -103,7 +111,7 @@ Use of the value factors is governed in accordance with the licensing terms prov
 
  ## 📜 Licensing
 
-This derivative dataset is subject to the same terms of use as the original database, available in `license.md` at the repository root.
+This derivative dataset is subject to the same terms of use as the original database, available in `license.md` at the repository root. These licensing conditions are stipulated by the International Foundation for Valuing Impacts. At the time of writing, the licensing terms provide for wide use of the data on a complimentary basis (including by account preparers) with limited exclusions to that position for those looking to integrate the data into commercial data products for which licensing charges apply. Questions regarding licensing of the database and requests for clarification regarding allowable uses and any other queries regarding compliance with the terms of their license should be referred to the IFVI.
 
 ## 📅 Versioning
 
