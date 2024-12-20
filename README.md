@@ -177,9 +177,11 @@ This repository reflects GVFD Version 1 (October 15th, 2024).  It is not guarant
 
 The source data has been restructured for various analytical perspectives:
 
-* **By Methodology:** JSON arrays organized by methodology parameters.
-* **By Methodology, By Country:** Mirrors the source database structure (except Land Use and Conversion, which are split into two files).
-* **By Territory:**  Organizes data geographically by continent, territory, and US state (US states appear in one methodology). JSON files aggregate data from various methodology tabs.
+ | **Data Category**            | **Description**                                                                                   |
+|-------------------------------|---------------------------------------------------------------------------------------------------|
+| **By Methodology**            | JSON arrays organized by methodology parameters.                                                 |
+| **By Methodology, By Country**| Mirrors the source database structure (except Land Use and Conversion, which are split into two files). |
+| **By Territory**              | Organizes data geographically by continent, territory, and US state (US states appear in one methodology). JSON files aggregate data from various methodology tabs. |
 
 Additional resources:
 
