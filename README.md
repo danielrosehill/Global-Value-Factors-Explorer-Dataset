@@ -532,7 +532,7 @@ For example `"Bahamas, The"` was renamed `"Bahamas"` and `"Egypt, Arab Rep."` wa
 | **Units**               | Kilograms (kg)                                                                                                                                                                                                                                        |
 | **Sample datapoint**    | Water Pollution_Phosphorus_N/A for this Category_Eutrophication                                                                                                                                                                                       |
 
-# Sample Data Values By Methodology
+# Sample Data Values By Methodology (CSV)
 
 <a id="sample-data"></a>
 ## 🧪 Sample Data
@@ -679,6 +679,91 @@ Afghanistan,Ba(II),Seawater,Health,/kg,Water Pollution_Ba(II)_Seawater_Health,12
 ```
 
 ---
+
+## Sample Data - JSON
+
+*Note: Afghanistan is the first country in the [territories list](/geo/territories) ordered alphabetically so is chosen to demonstrate geographically-stratified examples*
+
+## Air Pollution: PM 2.5 Values By Country 
+
+This `JSON` array - from V1 of the [derivative dataset](https://github.com/danielrosehill/Global-Value-Factors-Explorer/tree/main/Data/GVFD-Deriv/data) presents the value factors for particulate matter 2.5 (PM2.5). 
+
+Details of the air pollution dataset can be found [here](specs/airpollution). 
+
+The value factors (`value:` in the array) are denominated in US dollars. The quantitative environmental parameters is `metric tons` of measured PM2.5 release.
+
+This value factor is stratified by location.
+
+```json
+{
+    "PM2.5": {
+        "Afghanistan": [
+            {
+                "Category": "PM2.5",
+                "Location": "Urban",
+                "Impact": "Primary Health",
+                "Units": "/metric ton",
+                "Reference": "Air Pollution_PM2.5_Urban_Primary Health",
+                "Value": "40,495.28"
+            },
+            {
+                "Category": "PM2.5",
+                "Location": "Peri-Urban",
+                "Impact": "Primary Health",
+                "Units": "/metric ton",
+                "Reference": "Air Pollution_PM2.5_Peri-Urban_Primary Health",
+                "Value": "34,468.58"
+            },
+            {
+                "Category": "PM2.5",
+                "Location": "Rural",
+                "Impact": "Primary Health",
+                "Units": "/metric ton",
+                "Reference": "Air Pollution_PM2.5_Rural_Primary Health",
+                "Value": "19,386.52"
+            },
+            {
+                "Category": "PM2.5",
+                "Location": "Transport",
+                "Impact": "Primary Health",
+                "Units": "/metric ton",
+                "Reference": "Air Pollution_PM2.5_Transport_Primary Health",
+                "Value": "31,346.36"
+            },
+            {
+                "Category": "PM2.5",
+                "Location": "N/A for PM2.5",
+                "Impact": "Visibility",
+                "Units": "/metric ton",
+                "Reference": "Air Pollution_PM2.5_N/A for PM2.5_Visibility",
+                "Value": "4.78"
+            }
+        ]
+    }
+}
+```
+---
+
+## Contributions
+
+
+Here’s a more polished and professional version of your contributor guidelines for the README:
+
+---
+
+## Contributor Guidelines
+
+Contributions to enhance this derivative dataset, making it more valuable, easier to navigate, and better suited for analytical and visualization use cases. If you have ideas or improvements, please consider contributing by following these steps:
+
+- **Submitting a Pull Request**:  
+  Start by opening a pull request. A dedicated branch named `Contributors Root` is available as an initial entry point for contributions. If preferred, you can create individual contributor branches stemming from this root branch.
+
+- **Preserving the Original Structure**:  
+  It is crucial to maintain the structure of the original derivative database as it mirrors the format published by the IFVI. Any modifications should not alter this original structure.
+
+- **Adding New Derivations**:  
+  If you are adding new derivations or datasets, please organize them within the `contributors` subfolder located in the data root directory. This folder is a first-level directory designed to house all contributor additions while preserving the integrity of the original dataset.
+
 
 ## Author (Source Database / GVFD)
 
