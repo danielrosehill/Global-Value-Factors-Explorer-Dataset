@@ -60,6 +60,22 @@ Impacts of water consumption are valued based on factors such as malnutrition, w
 **Water Pollution**
 Water pollution is valued based on 104 different pollutants, including phosphorus, nitrogen, heavy metals, pesticides, and pharmaceuticals, with the amount of each pollutant measured in kilograms (kg).
 
+---
+
+# Download Links - Value Factors By Methodology (CSV)
+
+| Title               | Format | Link                                                                                                   |
+|---------------------|--------|-------------------------------------------------------------------------------------------------------|
+| Air Pollution       | CSV    | [![Download](https://img.shields.io/badge/Download-Air_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/airpollution.csv) |
+| GHG Emissions       | CSV    | [![Download](https://img.shields.io/badge/Download-GHG_Emissions-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/ghgs.csv) |
+| Land Conversion     | CSV    | [![Download](https://img.shields.io/badge/Download-Land_Conversion-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/land-conversion.csv) |
+| Land Use            | CSV    | [![Download](https://img.shields.io/badge/Download-Land_Use-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/land-use.csv) |
+| Waste               | CSV    | [![Download](https://img.shields.io/badge/Download-Waste-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/waste.csv) |
+| Water Consumption   | CSV    | [![Download](https://img.shields.io/badge/Download-Water_Consumption-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/water-consumption.csv) |
+| Water Pollution     | CSV    | [![Download](https://img.shields.io/badge/Download-Water_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/water-pollution.csv) |
+
+
+
 <a id="links-to-composite-files"></a>
 ## 🔗 Links to Composite Files
 
