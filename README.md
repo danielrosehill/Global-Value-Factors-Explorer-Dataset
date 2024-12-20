@@ -19,12 +19,6 @@ The Global Value Factors Database, released by the [International Foundation for
 
 The GVFD covers 430 different environmental impacts across four main categories of impact: air pollution, land use and conversion, waste and water pollution . With the exception of the value factor for greenhouse gas emissions, for which a single value factor is provided ($236/tco2e), the value factors are geographically stratified (in other words, the value factors are both impact-specific and geolocation-specific).  In total, there are 268 geolocations in the dataset reflecting all the world's recognised sovereigns as well as some international dependencies. In addition, one set of value factors, air pollution, provides data at the level of US states. 
 
-![alt text](images/graphics/1.png)
-
-![alt text](images/graphics/2.png)
-
-![alt text](images/graphics/4.png)
-
 # Key Data Parameters
 
 | Parameter             | Value                                                                                               |
@@ -38,6 +32,8 @@ The GVFD covers 430 different environmental impacts across four main categories 
 ---
 
 # Impact Categories In Dataset
+
+![alt text](images/graphics/4.png)
 
 **Air Pollution**
 Pollution is calculated based on metric tons of PM2.5, PM10, SOx, NOx, NH3, and VOCs per year.
@@ -95,11 +91,15 @@ These files are not intended for analytical workloads, but if you need to provid
 
 ## Impact Accounting
 
+![alt text](images/graphics/1.png)
+
 The value factors are intended for use by account preparers preparing financial statements which integrate their environmental and social impacts alongside their traditional financial impacts, unifying all their holistic impacts into one set of financial calculations  While the GVFD covers only environmental factors, a key part of the IFVI's mission is also developing methodologies for quantifying social impacts. 
 
  In order to fulfill their intended purpose, the value factors need to be matched with the raw quantitative environmental data which each value factor is intended to convert into monetary terms (the value factors are expressed as conversions to the US dollar).
 
  # About This Data Project (Derivative Database)
+
+ ![alt text](images/graphics/3.png)
 
 This derivative dataset was prepared by me, Daniel Rosehill, in order to facilitate the exploration and analysis of this dataset by non-commercial users.  I believe that there is a strong policy interest in the question of how companies' impacts can be properly accounted for, recognising their societal and planetary effects. 
 
