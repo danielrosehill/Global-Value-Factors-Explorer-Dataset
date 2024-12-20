@@ -74,8 +74,22 @@ The GVFD covers 430 different environmental impacts across four main categories 
 | Water Consumption   | CSV    | [![Download](https://img.shields.io/badge/Download-Water_Consumption-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/water-consumption.csv) |
 | Water Pollution     | CSV    | [![Download](https://img.shields.io/badge/Download-Water_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/water-pollution.csv) |
 
+# Download Links - By Value Factor (JSON)
 
-# Download Links - Value Factors By Methodology, By Country (JSON)
+These data files group together value factors by each of the major methodology groups in the data release.
+
+| Methodology       | Download Link                                                                                                             |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------|
+| Air Pollution     | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/airpollution.json) |
+| GHGs              | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/ghgs.json) |
+| Land Use          | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/land_use.json) |
+| Land Conversion   | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/landconversion.json) |
+| Waste             | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/waste.json) |
+| Water Consumption | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-consumption.json) |
+| Water Pollution   | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-pollution.json) |
+
+
+# Download Links - Value Factors By Country (Composite / All Methodologies)
 
 Hierarchical JSON representation of value factors: by methodology, by country, then by category, impact and finally to individual factors. 
 
