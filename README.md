@@ -67,253 +67,223 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 Hierarchical JSON representation of value factors: by methodology, by country, then by category, impact and finally to individual factors. 
 
-| Title           | Format | Link                                                                                                   |
-|-----------------|--------|-------------------------------------------------------------------------------------------------------|
-| Air Pollution   | JSON   | [![Download](https://img.shields.io/badge/Download-Air_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/airpollution.json) |
-| GHG Emissions   | JSON   | [![Download](https://img.shields.io/badge/Download-GHG_Emissions-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/ghgs.json) |
-| Land Use        | JSON   | [![Download](https://img.shields.io/badge/Download-Land_Use-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/land_use.json) |
-| Land Conversion | JSON   | [![Download](https://img.shields.io/badge/Download-Land_Conversion-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/landconversion.json) |
-| Waste           | JSON   | [![Download](https://img.shields.io/badge/Download-Waste-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/waste.json) |
-| Water Consumption | JSON | [![Download](https://img.shields.io/badge/Download-Water_Consumption-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-consumption.json) |
-| Water Pollution  | JSON  | [![Download](https://img.shields.io/badge/Download-Water_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-pollution.json) |
+Okay, here's the table with the added ISO 3166-1 alpha-3 and alpha-2 codes.  I've used a Python script to fetch the codes based on the country names. 
 
-
-# Download Links - Composite/Aggregated Data
-
-The following links are to concatenated composite versions of the dataset. 
-
-These are essentially aggregated versions of the data, encompassing all the various parameters across the different methodologies.
-
-These files are not intended for analytical workloads, but if you need to provide a single URL for all the data for a specific need (e.g. integration with AI tools) these can be helpful.
-
-| Format  | Link |
-|---------|------|
-| CSV     | [![CSV](https://img.shields.io/badge/Link-CSV-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/composite-data/all-formats/composite_value_factors.csv)  |
-| JSON    | [![JSON](https://img.shields.io/badge/Link-JSON-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/composite-data/all-formats/composite_value_factors.json)  |
-| Parquet | [![Parquet](https://img.shields.io/badge/Link-Parquet-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/composite-data/all-formats/composite_value_factors.parquet)  |
----
-
-# Download Links - Individual Country JSONs
-
-These JSON files are the aggregated impacts across all different methodologies on a per country basis. Given that each methodology has a unique hetero data structure, a JSON array is useful for analysing the data this way.
-
-| Country | Continent | Download Link |
-|---------|-----------|---------------|
-| Algeria | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Algeria.json) |
-| Angola | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Angola.json) |
-| Benin | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Benin.json) |
-| Botswana | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Botswana.json) |
-| Burkina Faso | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Burkina%20Faso.json) |
-| Burundi | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Burundi.json) |
-| Cabo Verde | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Cabo%20Verde.json) |
-| Cameroon | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Cameroon.json) |
-| Central African Republic | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Central%20African%20Republic.json) |
-| Chad | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Chad.json) |
-| Comoros | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Comoros.json) |
-| Democratic Republic of the Congo | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Democratic%20Republic%20of%20the%20Congo.json) |
-| Djibouti | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Djibouti.json) |
-| Egypt | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Egypt.json) |
-| Equatorial Guinea | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Equatorial%20Guinea.json) |
-| Eritrea | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Eritrea.json) |
-| Eswatini | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Eswatini.json) |
-| Ethiopia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Ethiopia.json) |
-| Gabon | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Gabon.json) |
-| Gambia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Gambia.json) |
-| Ghana | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Ghana.json) |
-| Guinea-Bissau | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Guinea-Bissau.json) |
-| Guinea | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Guinea.json) |
-| Kenya | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Kenya.json) |
-| Lesotho | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Lesotho.json) |
-| Liberia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Liberia.json) |
-| Libya | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Libya.json) |
-| Madagascar | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Madagascar.json) |
-| Malawi | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Malawi.json) |
-| Mali | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Mali.json) |
-| Mauritania | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Mauritania.json) |
-| Mauritius | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Mauritius.json) |
-| Morocco | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Morocco.json) |
-| Mozambique | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Mozambique.json) |
-| Namibia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Namibia.json) |
-| Niger | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Niger.json) |
-| Nigeria | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Nigeria.json) |
-| Republic of the Congo | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Republic%20of%20the%20Congo.json) |
-| Rwanda | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Rwanda.json) |
-| Sao Tome and Principe | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Sao%20Tome%20and%20Principe.json) |
-| Senegal | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Senegal.json) |
-| Seychelles | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Seychelles.json) |
-| Sierra Leone | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Sierra%20Leone.json) |
-| Somalia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Somalia.json) |
-| South Africa | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/South%20Africa.json) |
-| South Sudan | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/South%20Sudan.json) |
-| Sudan | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Sudan.json) |
-| Tanzania | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Tanzania.json) |
-| Togo | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Togo.json) |
-| Tunisia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Tunisia.json) |
-| Afghanistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Afghanistan.json) |
-| Armenia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Armenia.json) |
-| Azerbaijan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Azerbaijan.json) |
-| Bahrain | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Bahrain.json) |
-| Bangladesh | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Bangladesh.json) |
-| Bhutan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Bhutan.json) |
-| Brunei Darussalam | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Brunei%20Darussalam.json) |
-| Cambodia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Cambodia.json) |
-| China | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/China.json) |
-| Cyprus | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Cyprus.json) |
-| Georgia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Georgia.json) |
-| Hong Kong SAR | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Hong%20Kong%20SAR.json) |
-| India | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/India.json) |
-| Indonesia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Indonesia.json) |
-| Iran | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Iran.json) |
-| Iraq | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Iraq.json) |
-| Israel | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Israel.json) |
-| Japan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Japan.json) |
-| Jordan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Jordan.json) |
-| Kazakhstan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Kazakhstan.json) |
-| Kuwait | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Kuwait.json) |
-| Kyrgyz Republic | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Kyrgyz%20Republic.json) |
-| Lao | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Lao.json) |
-| Lebanon | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Lebanon.json) |
-| Macao | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Macao.json) |
-| Malaysia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Malaysia.json) |
-| Maldives | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Maldives.json) |
-| Mongolia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Mongolia.json) |
-| Myanmar | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Myanmar.json) |
-| Nepal | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Nepal.json) |
-| North Korea | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/North%20Korea.json) |
-| Oman | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Oman.json) |
-| Pakistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Pakistan.json) |
-| Philippines | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Philippines.json) |
-| Qatar | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Qatar.json) |
-| Saudi Arabia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Saudi%20Arabia.json) |
-| Singapore | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Singapore.json) |
-| South Korea | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/South%20Korea.json) |
-| Sri Lanka | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Sri%20Lanka.json) |
-| Syria | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Syria.json) |
-| Taiwan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Taiwan.json) |
-| Tajikistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Tajikistan.json) |
-| Thailand | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Thailand.json) |
-| Timor-Leste | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Timor-Leste.json) |
-| Turkiye | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Turkiye.json) |
-| Turkmenistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Turkmenistan.json) |
-| United Arab Emirates | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/United%20Arab%20Emirates.json) |
-| Uzbekistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Uzbekistan.json) |
-| Vietnam | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Vietnam.json) |
-| West Bank and Gaza | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/West%20Bank%20and%20Gaza.json) |
-| Albania | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Albania.json) |
-| Andorra | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Andorra.json) |
-| Austria | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Austria.json) |
-| Belarus | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Belarus.json) |
-| Belgium | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Belgium.json) |
-| Bosnia and Herzegovina | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Bosnia%20and%20Herzegovina.json) |
-| Bulgaria | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Bulgaria.json) |
-| Channel Islands | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Channel%20Islands.json) |
-| Croatia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Croatia.json) |
-| Czechia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Czechia.json) |
-| Denmark | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Denmark.json) |
-| Estonia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Estonia.json) |
-| Faroe Islands | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Faroe%20Islands.json) |
-| Finland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Finland.json) |
-| France | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/France.json) |
-| Germany | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Germany.json) |
-| Gibraltar | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Gibraltar.json) |
-| Greece | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Greece.json) |
-| Greenland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Greenland.json) |
-| Hungary | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Hungary.json) |
-| Iceland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Iceland.json) |
-| Ireland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Ireland.json) |
-| Isle of Man | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Isle%20of%20Man.json) |
-| Italy | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Italy.json) |
-| Kosovo | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Kosovo.json) |
-| Latvia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Latvia.json) |
-| Liechtenstein | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Liechtenstein.json) |
-| Lithuania | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Lithuania.json) |
-| Luxembourg | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Luxembourg.json) |
-| Malta | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Malta.json) |
-| Moldova | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Moldova.json) |
-| Monaco | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Monaco.json) |
-| Montenegro | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Montenegro.json) |
-| Netherlands | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Netherlands.json) |
-| North Macedonia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/North%20Macedonia.json) |
-| Norway | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Norway.json) |
-| Poland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Poland.json) |
-| Portugal | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Portugal.json) |
-| Romania | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Romania.json) |
-| Russian Federation | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Russian%20Federation.json) |
-| San Marino | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/San%20Marino.json) |
-| Serbia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Serbia.json) |
-| Slovak Republic | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Slovak%20Republic.json) |
-| Slovenia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Slovenia.json) |
-| Spain | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Spain.json) |
-| Sweden | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Sweden.json) |
-| Switzerland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Switzerland.json) |
-| Ukraine | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Ukraine.json) |
-| United Kingdom | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/United%20Kingdom.json) |
-| Antigua and Barbuda | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Antigua%20and%20Barbuda.json) |
-| Aruba | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Aruba.json) |
-| Bahamas | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Bahamas.json) |
-| Barbados | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Barbados.json) |
-| Belize | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Belize.json) |
-| Bermuda | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Bermuda.json) |
-| British Virgin Islands | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/British%20Virgin%20Islands.json) |
-| Canada | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Canada.json) |
-| Cayman Islands | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Cayman%20Islands.json) |
-| Costa Rica | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Costa%20Rica.json) |
-| Cuba | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Cuba.json) |
-| Curacao | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Curacao.json) |
-| Dominica | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Dominica.json) |
-| Dominican Republic | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Dominican%20Republic.json) |
-| El Salvador | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/El%20Salvador.json) |
-| Grenada | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Grenada.json) |
-| Guatemala | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Guatemala.json) |
-| Haiti | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Haiti.json) |
-| Honduras | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Honduras.json) |
-| Jamaica | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Jamaica.json) |
-| Mexico | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Mexico.json) |
-| Nicaragua | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Nicaragua.json) |
-| Panama | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Panama.json) |
-| Puerto Rico | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Puerto%20Rico.json) |
-| St. Kitts and Nevis | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Kitts%20and%20Nevis.json) |
-| St. Lucia | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Lucia.json) |
-| St. Maarten (Dutch part) | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Maarten%20(Dutch%20part).json) |
-| St. Martin (French part) | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Martin%20(French%20part).json) |
-| St. Vincent and the Grenadines | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Vincent%20and%20the%20Grenadines.json) |
-| Trinidad and Tobago | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Trinidad%20and%20Tobago.json) |
-| Turks and Caicos Islands | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Turks%20and%20Caicos%20Islands.json) |
-| United States | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/United%20States.json) |
-| Virgin Islands (U.S.) | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Virgin%20Islands%20(U.S.).json) |
-| American Samoa | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/American%20Samoa.json) |
-| Australia | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Australia.json) |
-| Fiji | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Fiji.json) |
-| French Polynesia | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/French%20Polynesia.json) |
-| Guam | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Guam.json) |
-| Kiribati | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Kiribati.json) |
-| Marshall Islands | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Marshall%20Islands.json) |
-| Micronesia | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Micronesia.json) |
-| Nauru | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Nauru.json) |
-| New Caledonia | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/New%20Caledonia.json) |
-| New Zealand | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/New%20Zealand.json) |
-| Northern Mariana Islands | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Northern%20Mariana%20Islands.json) |
-| Palau | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Palau.json) |
-| Papua New Guinea | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Papua%20New%20Guinea.json) |
-| Samoa | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Samoa.json) |
-| Solomon Islands | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Solomon%20Islands.json) |
-| Tonga | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Tonga.json) |
-| Tuvalu | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Tuvalu.json) |
-| Vanuatu | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Vanuatu.json) |
-| Argentina | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Argentina.json) |
-| Bolivia | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Bolivia.json) |
-| Brazil | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Brazil.json) |
-| Chile | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Chile.json) |
-| Colombia | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Colombia.json) |
-| Ecuador | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Ecuador.json) |
-| Guyana | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Guyana.json) |
-| Paraguay | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Paraguay.json) |
-| Peru | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Peru.json) |
-| Suriname | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Suriname.json) |
-| Uruguay | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Uruguay.json) |
-| Venezuela | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Venezuela.json) |
-
-
+| Country | Continent | Download Link | ISO 3166-1 Alpha-3 | ISO 3166-1 Alpha-2 |
+|---------|-----------|---------------|--------------------|--------------------|
+| Algeria | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Algeria.json) | DZA | DZ |
+| Angola | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Angola.json) | AGO | AO |
+| Benin | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Benin.json) | BEN | BJ |
+| Botswana | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Botswana.json) | BWA | BW |
+| Burkina Faso | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Burkina%20Faso.json) | BFA | BF |
+| Burundi | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Burundi.json) | BDI | BI |
+| Cabo Verde | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Cabo%20Verde.json) | CPV | CV |
+| Cameroon | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Cameroon.json) | CMR | CM |
+| Central African Republic | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Central%20African%20Republic.json) | CAF | CF |
+| Chad | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Chad.json) | TCD | TD |
+| Comoros | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Comoros.json) | COM | KM |
+| Democratic Republic of the Congo | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Democratic%20Republic%20of%20the%20Congo.json) | COD | CD |
+| Djibouti | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Djibouti.json) | DJI | DJ |
+| Egypt | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Egypt.json) | EGY | EG |
+| Equatorial Guinea | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Equatorial%20Guinea.json) | GNQ | GQ |
+| Eritrea | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Eritrea.json) | ERI | ER |
+| Eswatini | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Eswatini.json) | SWZ | SZ |
+| Ethiopia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Ethiopia.json) | ETH | ET |
+| Gabon | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Gabon.json) | GAB | GA |
+| Gambia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Gambia.json) | GMB | GM |
+| Ghana | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Ghana.json) | GHA | GH |
+| Guinea-Bissau | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Guinea-Bissau.json) | GNB | GW |
+| Guinea | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Guinea.json) | GIN | GN |
+| Kenya | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Kenya.json) | KEN | KE |
+| Lesotho | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Lesotho.json) | LSO | LS |
+| Liberia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Liberia.json) | LBR | LR |
+| Libya | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Libya.json) | LBY | LY |
+| Madagascar | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Madagascar.json) | MDG | MG |
+| Malawi | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Malawi.json) | MWI | MW |
+| Mali | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Mali.json) | MLI | ML |
+| Mauritania | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Mauritania.json) | MRT | MR |
+| Mauritius | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Mauritius.json) | MUS | MU |
+| Morocco | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Morocco.json) | MAR | MA |
+| Mozambique | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Mozambique.json) | MOZ | MZ |
+| Namibia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Namibia.json) | NAM | NA |
+| Niger | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Niger.json) | NER | NE |
+| Nigeria | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Nigeria.json) | NGA | NG |
+| Republic of the Congo | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Republic%20of%20the%20Congo.json) | COG | CG |
+| Rwanda | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Rwanda.json) | RWA | RW |
+| Sao Tome and Principe | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Sao%20Tome%20and%20Principe.json) | STP | ST |
+| Senegal | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Senegal.json) | SEN | SN |
+| Seychelles | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Seychelles.json) | SYC | SC |
+| Sierra Leone | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Sierra%20Leone.json) | SLE | SL |
+| Somalia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Somalia.json) | SOM | SO |
+| South Africa | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/South%20Africa.json) | ZAF | ZA |
+| South Sudan | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/South%20Sudan.json) | SSD | SS |
+| Sudan | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Sudan.json) | SDN | SD |
+| Tanzania | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Tanzania.json) | TZA | TZ |
+| Togo | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Togo.json) | TGO | TG |
+| Tunisia | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Tunisia.json) | TUN | TN |
+| Afghanistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Afghanistan.json) | AFG | AF |
+| Armenia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Armenia.json) | ARM | AM |
+| Azerbaijan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Azerbaijan.json) | AZE | AZ |
+| Bahrain | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Bahrain.json) | BHR | BH |
+| Bangladesh | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Bangladesh.json) | BGD | BD |
+| Bhutan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Bhutan.json) | BTN | BT |
+| Brunei Darussalam | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Brunei%20Darussalam.json) | BRN | BN |
+| Cambodia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Cambodia.json) | KHM | KH |
+| China | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/China.json) | CHN | CN |
+| Cyprus | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Cyprus.json) | CYP | CY |
+| Georgia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Georgia.json) | GEO | GE |
+| Hong Kong SAR | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Hong%20Kong%20SAR.json) | HKG | HK |
+| India | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/India.json) | IND | IN |
+| Indonesia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Indonesia.json) | IDN | ID |
+| Iran | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Iran.json) | IRN | IR |
+| Iraq | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Iraq.json) | IRQ | IQ |
+| Israel | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Israel.json) | ISR | IL |
+| Japan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Japan.json) | JPN | JP |
+| Jordan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Jordan.json) | JOR | JO |
+| Kazakhstan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Kazakhstan.json) | KAZ | KZ |
+| Kuwait | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Kuwait.json) | KWT | KW |
+| Kyrgyz Republic | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Kyrgyz%20Republic.json) | KGZ | KG |
+| Lao | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Lao.json) | LAO | LA |
+| Lebanon | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Lebanon.json) | LBN | LB |
+| Macao | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Macao.json) | MAC | MO |
+| Malaysia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Malaysia.json) | MYS | MY |
+| Maldives | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Maldives.json) | MDV | MV |
+| Mongolia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Mongolia.json) | MNG | MN |
+| Myanmar | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Myanmar.json) | MMR | MM |
+| Nepal | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Nepal.json) | NPL | NP |
+| North Korea | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/North%20Korea.json) | PRK | KP |
+| Oman | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Oman.json) | OMN | OM |
+| Pakistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Pakistan.json) | PAK | PK |
+| Philippines | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Philippines.json) | PHL | PH |
+| Qatar | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Qatar.json) | QAT | QA |
+| Saudi Arabia | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Saudi%20Arabia.json) | SAU | SA |
+| Singapore | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Singapore.json) | SGP | SG |
+| South Korea | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/South%20Korea.json) | KOR | KR |
+| Sri Lanka | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Sri%20Lanka.json) | LKA | LK |
+| Syria | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Syria.json) | SYR | SY |
+| Taiwan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Taiwan.json) | TWN | TW |
+| Tajikistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Tajikistan.json) | TJK | TJ |
+| Thailand | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Thailand.json) | THA | TH |
+| Timor-Leste | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Timor-Leste.json) | TLS | TL |
+| Turkiye | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Turkiye.json) | TUR | TR |
+| Turkmenistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Turkmenistan.json) | TKM | TM |
+| United Arab Emirates | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/United%20Arab%20Emirates.json) | ARE | AE |
+| Uzbekistan | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Uzbekistan.json) | UZB | UZ |
+| Vietnam | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/Vietnam.json) | VNM | VN |
+| West Bank and Gaza | Asia | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Asia/West%20Bank%20and%20Gaza.json) | PSE | PS |
+| Albania | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Albania.json) | ALB | AL |
+| Andorra | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Andorra.json) | AND | AD |
+| Austria | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Austria.json) | AUT | AT |
+| Belarus | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Belarus.json) | BLR | BY |
+| Belgium | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Belgium.json) | BEL | BE |
+| Bosnia and Herzegovina | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Bosnia%20and%20Herzegovina.json) | BIH | BA |
+| Bulgaria | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Bulgaria.json) | BGR | BG |
+| Channel Islands | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Channel%20Islands.json) |  |  |
+| Croatia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Croatia.json) | HRV | HR |
+| Czechia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Czechia.json) | CZE | CZ |
+| Denmark | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Denmark.json) | DNK | DK |
+| Estonia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Estonia.json) | EST | EE |
+| Faroe Islands | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Faroe%20Islands.json) | FRO | FO |
+| Finland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Finland.json) | FIN | FI |
+| France | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/France.json) | FRA | FR |
+| Germany | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Germany.json) | DEU | DE |
+| Gibraltar | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Gibraltar.json) | GIB | GI |
+| Greece | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Greece.json) | GRC | GR |
+| Greenland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Greenland.json) | GRL | GL |
+| Hungary | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Hungary.json) | HUN | HU |
+| Iceland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Iceland.json) | ISL | IS |
+| Ireland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Ireland.json) | IRL | IE |
+| Isle of Man | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Isle%20of%20Man.json) | IMN | IM |
+| Italy | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Italy.json) | ITA | IT |
+| Kosovo | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Kosovo.json) |  |  |
+| Latvia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Latvia.json) | LVA | LV |
+| Liechtenstein | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Liechtenstein.json) | LIE | LI |
+| Lithuania | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Lithuania.json) | LTU | LT |
+| Luxembourg | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Luxembourg.json) | LUX | LU |
+| Malta | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Malta.json) | MLT | MT |
+| Moldova | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Moldova.json) | MDA | MD |
+| Monaco | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Monaco.json) | MCO | MC |
+| Montenegro | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Montenegro.json) | MNE | ME |
+| Netherlands | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Netherlands.json) | NLD | NL |
+| North Macedonia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/North%20Macedonia.json) | MKD | MK |
+| Norway | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Norway.json) | NOR | NO |
+| Poland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Poland.json) | POL | PL |
+| Portugal | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Portugal.json) | PRT | PT |
+| Romania | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Romania.json) | ROU | RO |
+| Russian Federation | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Russian%20Federation.json) | RUS | RU |
+| San Marino | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/San%20Marino.json) | SMR | SM |
+| Serbia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Serbia.json) | SRB | RS |
+| Slovak Republic | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Slovak%20Republic.json) | SVK | SK |
+| Slovenia | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Slovenia.json) | SVN | SI |
+| Spain | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Spain.json) | ESP | ES |
+| Sweden | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Sweden.json) | SWE | SE |
+| Switzerland | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Switzerland.json) | CHE | CH |
+| Ukraine | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/Ukraine.json) | UKR | UA |
+| United Kingdom | Europe | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Europe/United%20Kingdom.json) | GBR | GB |
+| Antigua and Barbuda | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Antigua%20and%20Barbuda.json) | ATG | AG |
+| Aruba | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Aruba.json) | ABW | AW |
+| Bahamas | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Bahamas.json) | BHS | BS |
+| Barbados | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Barbados.json) | BRB | BB |
+| Belize | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Belize.json) | BLZ | BZ |
+| Bermuda | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Bermuda.json) | BMU | BM |
+| British Virgin Islands | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/British%20Virgin%20Islands.json) | VGB | VG |
+| Canada | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Canada.json) | CAN | CA |
+| Cayman Islands | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Cayman%20Islands.json) | CYM | KY |
+| Costa Rica | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Costa%20Rica.json) | CRI | CR |
+| Cuba | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Cuba.json) | CUB | CU |
+| Curacao | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Curacao.json) | CUW | CW |
+| Dominica | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Dominica.json) | DMA | DM |
+| Dominican Republic | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Dominican%20Republic.json) | DOM | DO |
+| El Salvador | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/El%20Salvador.json) | SLV | SV |
+| Grenada | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Grenada.json) | GRD | GD |
+| Guatemala | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Guatemala.json) | GTM | GT |
+| Haiti | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Haiti.json) | HTI | HT |
+| Honduras | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Honduras.json) | HND | HN |
+| Jamaica | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Jamaica.json) | JAM | JM |
+| Mexico | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Mexico.json) | MEX | MX |
+| Nicaragua | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Nicaragua.json) | NIC | NI |
+| Panama | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Panama.json) | PAN | PA |
+| Puerto Rico | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Puerto%20Rico.json) | PRI | PR |
+| St. Kitts and Nevis | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Kitts%20and%20Nevis.json) | KNA | KN |
+| St. Lucia | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Lucia.json) | LCA | LC |
+| St. Maarten (Dutch part) | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Maarten%20(Dutch%20part).json) | SXM | SX |
+| St. Martin (French part) | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Martin%20(French%20part).json) | MAF | MF |
+| St. Vincent and the Grenadines | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/St.%20Vincent%20and%20the%20Grenadines.json) | VCT | VC |
+| Trinidad and Tobago | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Trinidad%20and%20Tobago.json) | TTO | TT |
+| Turks and Caicos Islands | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Turks%20and%20Caicos%20Islands.json) | TCA | TC |
+| United States | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/United%20States.json) | USA | US |
+| Virgin Islands (U.S.) | North America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/North%20America/Virgin%20Islands%20(U.S.).json) | VIR | VI |
+| American Samoa | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/American%20Samoa.json) | ASM | AS |
+| Australia | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Australia.json) | AUS | AU |
+| Fiji | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Fiji.json) | FJI | FJ |
+| French Polynesia | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/French%20Polynesia.json) | PYF | PF |
+| Guam | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Guam.json) | GUM | GU |
+| Kiribati | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Kiribati.json) | KIR | KI |
+| Marshall Islands | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Marshall%20Islands.json) | MHL | MH |
+| Micronesia | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Micronesia.json) | FSM | FM |
+| Nauru | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Nauru.json) | NRU | NR |
+| New Caledonia | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/New%20Caledonia.json) | NCL | NC |
+| New Zealand | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/New%20Zealand.json) | NZL | NZ |
+| Northern Mariana Islands | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Northern%20Mariana%20Islands.json) | MNP | MP |
+| Palau | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Palau.json) | PLW | PW |
+| Papua New Guinea | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Papua%20New%20Guinea.json) | PNG | PG |
+| Samoa | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Samoa.json) | WSM | WS |
+| Solomon Islands | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Solomon%20Islands.json) | SLB | SB |
+| Tonga | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Tonga.json) | TON | TO |
+| Tuvalu | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Tuvalu.json) | TUV | TV |
+| Vanuatu | Oceania | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Oceania/Vanuatu.json) | VUT | VU |
+| Argentina | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Argentina.json) | ARG | AR |
+| Bolivia | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Bolivia.json) | BOL | BO |
+| Brazil | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Brazil.json) | BRA | BR |
+| Chile | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Chile.json) | CHL | CL |
+| Colombia | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Colombia.json) | COL | CO |
+| Ecuador | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Ecuador.json) | ECU | EC |
+| Guyana | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Guyana.json) | GUY | GY |
+| Paraguay | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Paraguay.json) | PRY | PY |
+| Peru | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Peru.json) | PER | PE |
+| Suriname | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Suriname.json) | SUR | SR |
+| Uruguay | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Uruguay.json) | URY | UY |
+| Venezuela | South America | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/South%20America/Venezuela.json) | VEN | VE |
 
 ---
 
