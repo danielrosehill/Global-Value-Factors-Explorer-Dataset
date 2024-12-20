@@ -37,12 +37,28 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 # Impact Categories In Dataset
 
-| Category                 | Description                                                                                                                                                                   |
-|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Air Pollution            | Impacts for 6 possible air pollutants of companies on health, agricultural productivity, and other impacts.                                                                   |
-| Land Use and Conversion  | Impacts on land occupied or converted by a company, covering the loss of ecosystem services in different locations and for different land use types.                              |
-| Waste                    | Impacts from the mass of waste generated and disposed of by various methods (such as incineration and waste to landfill), including impacts on leachate, disamenity, climate change and air pollution.|
-| Water Pollution          | Impacts from 104 possible corporate water pollutants on human health and eutrophication.                                                                                     |
+Okay, here's the revised summary with the addition of the number of pollutants for Water Pollution:
+
+**Air Pollution**
+Pollution is calculated based on metric tons of PM2.5, PM10, SOx, NOx, NH3, and VOCs per year.
+
+**GHG Emissions**
+Emissions are valued using a single globally applicable factor of $236 per ton of CO2 equivalent ($/tCO2e).
+
+**Land Conversion**
+Land use changes are valued based on categories such as wheat, oilseeds, forestry, and paved land, measured in hectares.
+
+**Land Use**
+Land use is valued based on categories including types of agriculture such as wheat and oilseeds and other categories such as forestry and paved land, measured in hectares (ha).
+
+**Waste**
+Waste production is valued by categorizing it as hazardous or non-hazardous, and by disposal method (landfill, incineration, unspecified), with the amount measured in kilograms (kg).
+
+**Water Consumption**
+Impacts of water consumption are valued based on factors such as malnutrition, water-borne diseases, resource costs, and effects on ecosystems, measured in cubic meters (m³).
+
+**Water Pollution**
+Water pollution is valued based on 104 different pollutants, including phosphorus, nitrogen, heavy metals, pesticides, and pharmaceuticals, with the amount of each pollutant measured in kilograms (kg).
 
 ---
 
