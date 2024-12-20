@@ -35,7 +35,18 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 ![alt text](images/graphics/4.png)
 
- Here is the updated version of the table with an additional **Description** column and the descriptions you provided:
+ <div style="display: flex; flex-wrap: wrap;">
+  <img src="images/cards/1.png" style="width: 45%; margin: 2.5%;">
+  <img src="images/cards/2.png" style="width: 45%; margin: 2.5%;">
+  <img src="images/cards/3.png" style="width: 45%; margin: 2.5%;">
+  <img src="images/cards/4.png" style="width: 45%; margin: 2.5%;">
+  <img src="images/cards/5.png" style="width: 45%; margin: 2.5%;">
+  <img src="images/cards/6.png" style="width: 45%; margin: 2.5%;">
+  <img src="images/cards/7.png" style="width: 45%; margin: 2.5%;">
+  <img src="images/cards/8.png" style="width: 45%; margin: 2.5%;">
+</div>
+
+
 
 | **Category Name**   | **Description**                                                                                          | **Impacts Considered**                                                                                       | **Reporting Units** | **Geostratified**          |
 |----------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------|-----------------------------|
