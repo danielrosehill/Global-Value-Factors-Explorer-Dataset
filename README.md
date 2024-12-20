@@ -58,8 +58,6 @@ Impacts of water consumption are valued based on factors such as malnutrition, w
 **Water Pollution**
 Water pollution is valued based on 104 different pollutants, including phosphorus, nitrogen, heavy metals, pesticides, and pharmaceuticals, with the amount of each pollutant measured in kilograms (kg).
 
----
-
 <a id="links-to-composite-files"></a>
 ## 🔗 Links to Composite Files
 
