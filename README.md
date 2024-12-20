@@ -80,13 +80,14 @@ These data files group together value factors by each of the major methodology g
 
 | Methodology       | Download Link                                                                                                             |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Air Pollution     | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/airpollution.json) |
-| GHGs              | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/ghgs.json) |
-| Land Use          | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/land_use.json) |
-| Land Conversion   | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/landconversion.json) |
-| Waste             | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/waste.json) |
-| Water Consumption | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-consumption.json) |
-| Water Pollution   | ![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-pollution.json) |
+| Air Pollution     | [![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/airpollution.json) |
+| GHGs              | [![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/ghgs.json) |
+| Land Use          | [![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/land_use.json) |
+| Land Conversion   | [![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/landconversion.json) |
+| Waste             | [![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/waste.json) |
+| Water Consumption | [![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-consumption.json) |
+| Water Pollution   | [![Download JSON](https://img.shields.io/badge/Download-JSON-blue?logo=JSON&style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-pollution.json) |
+
 
 
 # Download Links - Value Factors By Country (Composite / All Methodologies)
