@@ -98,6 +98,21 @@ For the latest versions of the interim methodologies, comment forms, and technic
 | Water Pollution     | CSV    | [![Download](https://img.shields.io/badge/Download-Water_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/water-pollution.csv) |
 
 
+# Download Links - Value Factors By Methodology, By Country (JSON)
+
+Hierarchical JSON representation of value factors: by methodology, by country, then by category, impact and finally to individual factors. 
+
+| Title           | Format | Link                                                                                                   |
+|-----------------|--------|-------------------------------------------------------------------------------------------------------|
+| Air Pollution   | JSON   | [![Download](https://img.shields.io/badge/Download-Air_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/airpollution.json) |
+| GHG Emissions   | JSON   | [![Download](https://img.shields.io/badge/Download-GHG_Emissions-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/ghgs.json) |
+| Land Use        | JSON   | [![Download](https://img.shields.io/badge/Download-Land_Use-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/land_use.json) |
+| Land Conversion | JSON   | [![Download](https://img.shields.io/badge/Download-Land_Conversion-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/landconversion.json) |
+| Waste           | JSON   | [![Download](https://img.shields.io/badge/Download-Waste-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/waste.json) |
+| Water Consumption | JSON | [![Download](https://img.shields.io/badge/Download-Water_Consumption-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-consumption.json) |
+| Water Pollution  | JSON  | [![Download](https://img.shields.io/badge/Download-Water_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/by-methodology-by-country/water-pollution.json) |
+
+
 # Download Links - Composite/Aggregated Data
 
 The following links are to concatenated composite versions of the dataset. 
@@ -123,6 +138,16 @@ These files are not intended for analytical workloads, but if you need to provid
 The value factors are intended for use by account preparers preparing financial statements which integrate their environmental and social impacts alongside their traditional financial impacts, unifying all their holistic impacts into one set of financial calculations  While the GVFD covers only environmental factors, a key part of the IFVI's mission is also developing methodologies for quantifying social impacts. 
 
  In order to fulfill their intended purpose, the value factors need to be matched with the raw quantitative environmental data which each value factor is intended to convert into monetary terms (the value factors are expressed as conversions to the US dollar).
+
+ ## Additional Use-Cases
+
+ Note:
+ 
+ The following suggested additional use cases were authored by me and do not bear the formal endorsement of IFVI. 
+ 
+ Rather, my intention in sharing them is to stimulate thought into how the iterative process of arriving at methods of converting environmental data into monetary terms could have uses beyond impact accounting.
+
+
 
  # About This Data Project (Derivative Database)
 
