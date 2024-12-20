@@ -67,8 +67,6 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 Hierarchical JSON representation of value factors: by methodology, by country, then by category, impact and finally to individual factors. 
 
-Okay, here's the table with the added ISO 3166-1 alpha-3 and alpha-2 codes.  I've used a Python script to fetch the codes based on the country names. 
-
 | Country | Continent | Download Link | ISO 3166-1 Alpha-3 | ISO 3166-1 Alpha-2 |
 |---------|-----------|---------------|--------------------|--------------------|
 | Algeria | Africa | [Download](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/blob/main/data/by-territory/by-continent/Africa/Algeria.json) | DZA | DZ |
