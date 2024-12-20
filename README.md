@@ -744,13 +744,6 @@ This value factor is stratified by location.
 ```
 ---
 
-## Contributions
-
-
-Here’s a more polished and professional version of your contributor guidelines for the README:
-
----
-
 ## Contributor Guidelines
 
 Contributions to enhance this derivative dataset, making it more valuable, easier to navigate, and better suited for analytical and visualization use cases. If you have ideas or improvements, please consider contributing by following these steps:
