@@ -37,8 +37,6 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 # Impact Categories In Dataset
 
-Okay, here's the revised summary with the addition of the number of pollutants for Water Pollution:
-
 **Air Pollution**
 Pollution is calculated based on metric tons of PM2.5, PM10, SOx, NOx, NH3, and VOCs per year.
 
