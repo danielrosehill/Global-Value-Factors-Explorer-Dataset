@@ -35,26 +35,16 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 ![alt text](images/graphics/4.png)
 
-**Air Pollution**
-Pollution is calculated based on metric tons of PM2.5, PM10, SOx, NOx, NH3, and VOCs per year.
+| **Category Name**   | **Impacts Considered**                                                                                       | **Reporting Units** | **Geo Stratified**          |
+|----------------------|------------------------------------------------------------------------------------------------------------|---------------------|-----------------------------|
+| Air Pollution        | Metric tons of PM2.5, PM10, SOx, NOx, NH3, and VOCs per year                                              | Metric tons/year    | Yes (by country and US state) |
+| GHG Emissions        | Single globally applicable factor of $236 per ton of CO2 equivalent ($/tCO2e)                              | Metric tons/year    | No                          |
+| Land Conversion      | Land use changes in categories such as wheat, oilseeds, forestry, and paved land                          | Hectares (ha)       | Yes                         |
+| Land Use             | Types of agriculture (e.g., wheat, oilseeds), forestry, and paved land                                    | Hectares (ha)       | Yes                         |
+| Waste                | Categorized as hazardous or non-hazardous by disposal method (landfill, incineration, unspecified)         | Kilograms (kg)      | Yes                         |
+| Water Consumption    | Factors such as malnutrition, water-borne diseases, resource costs, and ecosystem effects                 | Cubic meters (m³)   | Yes                         |
+| Water Pollution      | 104 pollutants including phosphorus, nitrogen, heavy metals, pesticides, and pharmaceuticals              | Kilograms (kg)      | Yes                         |
 
-**GHG Emissions**
-Emissions are valued using a single globally applicable factor of $236 per ton of CO2 equivalent ($/tCO2e).
-
-**Land Conversion**
-Land use changes are valued based on categories such as wheat, oilseeds, forestry, and paved land, measured in hectares.
-
-**Land Use**
-Land use is valued based on categories including types of agriculture such as wheat and oilseeds and other categories such as forestry and paved land, measured in hectares (ha).
-
-**Waste**
-Waste production is valued by categorizing it as hazardous or non-hazardous, and by disposal method (landfill, incineration, unspecified), with the amount measured in kilograms (kg).
-
-**Water Consumption**
-Impacts of water consumption are valued based on factors such as malnutrition, water-borne diseases, resource costs, and effects on ecosystems, measured in cubic meters (m³).
-
-**Water Pollution**
-Water pollution is valued based on 104 different pollutants, including phosphorus, nitrogen, heavy metals, pesticides, and pharmaceuticals, with the amount of each pollutant measured in kilograms (kg).
 
 ---
 
