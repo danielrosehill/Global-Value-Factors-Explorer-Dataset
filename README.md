@@ -48,6 +48,39 @@ The GVFD covers 430 different environmental impacts across four main categories 
 | Water Pollution      | Impacts caused by polluting water systems divided by pollutant and setting                             | 104 pollutants including phosphorus, nitrogen, heavy metals, pesticides, and pharmaceuticals              | Kilograms (kg)      | Yes                         |
 
  
+---
+
+# Links To Supporting Documents And Guides, IFVI Website
+
+Please note:
+
+These links were aggregated on 20/12/24. 
+
+The IFVI's consultative processes are ongoing and these links may change in the future. 
+
+For the latest versions of the interim methodologies, comment forms, and technical manuals refer to the IFVI website at [ifvi.org](https://www.ifvi.org)
+
+# GHG Emissions Methodology
+
+| Title                     | Link                                                                                  |
+|---------------------------|---------------------------------------------------------------------------------------|
+| Methodology Paper         | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://share.hsforms.com/1yn-WjRi3SbqxEBKPesJ-Kwqaucq) |
+| Implementation Guide      | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/11/IFVI-VBA_GHG_-Implementation-Guide.pdf) |
+| Basis For Conclusions     | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/09/IFVI_VBA_Environmental-Methodology-1_GHG-Topic-Methodology_Basis-for-Conclusions.pdf) |
+
+# Water Consumption Methodology
+
+| Title                                     | Link                                                                                  |
+|-------------------------------------------|---------------------------------------------------------------------------------------|
+| Exposure Draft                            | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/09/IFVI_VBA_Exposure-DRAFT_Water-Consumption-Topic-Methodology.pdf) |
+| Public Comment Feedback Summary (XLSX)   | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/12/IFVI_VBA_Public-Comment-Feedback_Water-Consumption-Topic-Methodology.xlsx) |
+
+# Other Methodologies
+
+| Title                                     | Link                                                                                  |
+|-------------------------------------------|---------------------------------------------------------------------------------------|
+| Download form for methodologies           | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/download-form-interim-methodology/) |
+| Download form for models and technical manuals | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/download-form-interim-models-and-technical-manuals/) |
 
 
 ---
