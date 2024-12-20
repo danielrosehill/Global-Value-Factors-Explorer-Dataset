@@ -9,6 +9,7 @@ pretty_name: IFVI Value Factors - Derivative Dataset For Analysis
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-orange?logo=huggingface)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv)  
 [![Original Data](https://img.shields.io/badge/Original-Data-green)](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/#GlobalValueFactorDatabase)
 
+![Dataset Downloads Hugging Face](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Dataset%20Downloads%20Hugging%20Face&query=$.downloads&url=https://huggingface.co/api/datasets/danielrosehill/ifvi_valuefactors_deriv)
 
 ## 🚀 What if companies' environmental impacts could be quantified in monetary terms!?
 
