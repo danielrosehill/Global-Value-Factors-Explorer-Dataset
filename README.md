@@ -3,9 +3,6 @@ language:
 - en
 pretty_name: IFVI Value Factors - Derivative Dataset For Analysis
 ---
-
-# IFVI Value Factors - Derivative Dataset For Analysis
-
 ![alt text](images/graphics/3.png)
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/danielrosehill/Global-Value-Factors-Explorer-Dataset)  
