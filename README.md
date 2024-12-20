@@ -75,11 +75,13 @@ Water pollution is valued based on 104 different pollutants, including phosphoru
 | Water Pollution     | CSV    | [![Download](https://img.shields.io/badge/Download-Water_Pollution-blue?style=flat-square)](https://huggingface.co/datasets/danielrosehill/ifvi_valuefactors_deriv/resolve/main/data/csv/by-methodology/water-pollution.csv) |
 
 
+# Download Links - Composite/Aggregated Data
 
-<a id="links-to-composite-files"></a>
-## 🔗 Links to Composite Files
+The following links are to concatenated composite versions of the dataset. 
 
-The following links are to concatenated composite versions of the dataset. These are essentially aggregated versions of the data, encompassing all the various parameters across the different methodologies
+These are essentially aggregated versions of the data, encompassing all the various parameters across the different methodologies.
+
+These files are not intended for analytical workloads, but if you need to provide a single URL for all the data for a specific need (e.g. integration with AI tools) these can be helpful.
 
 | Format  | Link |
 |---------|------|
