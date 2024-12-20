@@ -50,41 +50,6 @@ The GVFD covers 430 different environmental impacts across four main categories 
  
 ---
 
-# Links To Supporting Documents And Guides, IFVI Website
-
-Please note:
-
-These links were aggregated on 20/12/24. 
-
-The IFVI's consultative processes are ongoing and these links may change in the future. 
-
-For the latest versions of the interim methodologies, comment forms, and technical manuals refer to the IFVI website at [ifvi.org](https://www.ifvi.org)
-
-# GHG Emissions Methodology
-
-| Title                     | Link                                                                                  |
-|---------------------------|---------------------------------------------------------------------------------------|
-| Methodology Paper         | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://share.hsforms.com/1yn-WjRi3SbqxEBKPesJ-Kwqaucq) |
-| Implementation Guide      | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/11/IFVI-VBA_GHG_-Implementation-Guide.pdf) |
-| Basis For Conclusions     | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/09/IFVI_VBA_Environmental-Methodology-1_GHG-Topic-Methodology_Basis-for-Conclusions.pdf) |
-
-# Water Consumption Methodology
-
-| Title                                     | Link                                                                                  |
-|-------------------------------------------|---------------------------------------------------------------------------------------|
-| Exposure Draft                            | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/09/IFVI_VBA_Exposure-DRAFT_Water-Consumption-Topic-Methodology.pdf) |
-| Public Comment Feedback Summary (XLSX)   | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/12/IFVI_VBA_Public-Comment-Feedback_Water-Consumption-Topic-Methodology.xlsx) |
-
-# Other Methodologies
-
-| Title                                     | Link                                                                                  |
-|-------------------------------------------|---------------------------------------------------------------------------------------|
-| Download form for methodologies           | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/download-form-interim-methodology/) |
-| Download form for models and technical manuals | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/download-form-interim-models-and-technical-manuals/) |
-
-
----
-
 # Download Links - Value Factors By Methodology (CSV)
 
 | Title               | Format | Link                                                                                                   |
@@ -129,6 +94,40 @@ These files are not intended for analytical workloads, but if you need to provid
 
 ---
 
+# Links To Supporting Documents And Guides, IFVI Website
+
+Please note:
+
+These links were aggregated on 20/12/24. 
+
+The IFVI's consultative processes are ongoing and these links may change in the future. 
+
+For the latest versions of the interim methodologies, comment forms, and technical manuals refer to the IFVI website at [ifvi.org](https://www.ifvi.org)
+
+# GHG Emissions Methodology
+
+| Title                     | Link                                                                                  |
+|---------------------------|---------------------------------------------------------------------------------------|
+| Methodology Paper         | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://share.hsforms.com/1yn-WjRi3SbqxEBKPesJ-Kwqaucq) |
+| Implementation Guide      | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/11/IFVI-VBA_GHG_-Implementation-Guide.pdf) |
+| Basis For Conclusions     | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/09/IFVI_VBA_Environmental-Methodology-1_GHG-Topic-Methodology_Basis-for-Conclusions.pdf) |
+
+# Water Consumption Methodology
+
+| Title                                     | Link                                                                                  |
+|-------------------------------------------|---------------------------------------------------------------------------------------|
+| Exposure Draft                            | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/09/IFVI_VBA_Exposure-DRAFT_Water-Consumption-Topic-Methodology.pdf) |
+| Public Comment Feedback Summary (XLSX)   | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/wp-content/uploads/2024/12/IFVI_VBA_Public-Comment-Feedback_Water-Consumption-Topic-Methodology.xlsx) |
+
+# Other Methodologies
+
+| Title                                     | Link                                                                                  |
+|-------------------------------------------|---------------------------------------------------------------------------------------|
+| Download form for methodologies           | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/download-form-interim-methodology/) |
+| Download form for models and technical manuals | [![Open Link](https://img.shields.io/badge/Open-Link-blue)](https://ifvi.org/methodology/environmental-topic-methodology/interim-methodologies/download-form-interim-models-and-technical-manuals/) |
+
+---
+
 # Value Factors - Use Case Descriptions
 
 ## Impact Accounting
@@ -145,9 +144,14 @@ The value factors are intended for use by account preparers preparing financial 
  
  The following suggested additional use cases were authored by me and do not bear the formal endorsement of IFVI. 
  
- Rather, my intention in sharing them is to stimulate thought into how the iterative process of arriving at methods of converting environmental data into monetary terms could have uses beyond impact accounting.
+ Rather, my intention in sharing them is to stimulate thought into how the iterative process of arriving at methods of converting environmental data into monetary terms could have uses beyond impact accounting. This list is extremely non-exhaustive and many more potential interesting uses for this data can be suggested.
 
-
+| **Use Case**                              | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tax Credits                              | The value factors could provide a framework for governments to devise and implement incentives to encourage companies to a) implement robust strategies around the collection and measurement of environmental parameters, and b) encourage those doing so with reduced taxation, which could also be used to offset the cost of collection programs.                                                                                                             |
+| Comparing Financial Performance And Sustainability | There is vigorous interest from a wide variety of stakeholders around the question of to what extent companies' environmental performance and profitability are correlated. This analysis is facilitated by having a wide variety of environmental parameters that can be monetized. Given the wide variability in the environmental parameters that publicly traded companies collect and disclose, a wide array of “value factors” improves the probability that meaningful data will be available for analysis. |
+|                                          | Impact accounting involves the direct integration of these value factors by account preparers. Additionally, external entities like sector analysts or environmental lobby groups could create composites of financial and sustainability reporting by applying value factors to publicly released financial data. By bridging financial and sustainability data, value factors allow approximations of the theorized financial effects of these impacts to be considered.                                                |
+| Policy Setting                           | In our current economic system, companies are often recused from financially contributing to mitigate environmental impacts attributed to them. Given scarce public resources and fairness concerns, many argue companies should act as financial participants in these programs. Monetizing their environmental impacts could provide a “bill” for companies' financial effects, aiding in policy arguments and garnering support for corporate responsibility as a true obligation rather than voluntary action.                              |
 
  # About This Data Project (Derivative Database)
 
