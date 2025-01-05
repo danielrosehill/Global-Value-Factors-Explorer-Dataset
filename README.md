@@ -32,6 +32,11 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 ---
 
+## Download Statistics
+
+![Download Statistics](download_statistics.png)
+
+---
  
 ## Impact Accounting
 
@@ -470,3 +475,7 @@ Contributions to enhance this derivative dataset, making it more valuable, easie
 - Daniel Rosehill  
 
 [![View Website](https://img.shields.io/badge/View-Website-green)](https://danielrosehill.com)
+
+## Download Statistics
+
+![Download Statistics](download_statistics.png)

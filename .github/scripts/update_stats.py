@@ -4,9 +4,23 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 from pathlib import Path
+import os
 
-# Define paths
-REPO_ROOT = Path("./")
+# Get the repository root (works both for local and GitHub Actions)
+if 'GITHUB_WORKSPACE' in os.environ:
+    REPO_ROOT = Path(os.environ['GITHUB_WORKSPACE'])
+else:
+    # Find git root when running locally
+    current_dir = Path(__file__).resolve().parent
+    while current_dir != current_dir.parent:
+        if (current_dir / '.git').exists():
+            REPO_ROOT = current_dir
+            break
+        current_dir = current_dir.parent
+    else:
+        raise RuntimeError("Not in a git repository")
+
+# Define paths relative to repository root
 CSV_PATH = REPO_ROOT / 'daily_downloads.csv'
 IMAGE_PATH = REPO_ROOT / 'download_statistics.png'
 README_PATH = REPO_ROOT / 'README.md'
@@ -52,7 +66,7 @@ def update_readme():
         content = file.read()
     
     start_marker = "## Download Statistics"
-    image_text = f"\n\n![Download Statistics]({IMAGE_PATH})\n"
+    image_text = f"\n\n![Download Statistics](download_statistics.png)\n"
     
     if start_marker not in content:
         content += f"\n\n{start_marker}{image_text}"
