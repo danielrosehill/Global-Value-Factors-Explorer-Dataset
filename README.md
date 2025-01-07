@@ -34,18 +34,7 @@ The GVFD covers 430 different environmental impacts across four main categories 
 
 ## Download Statistics
 
-This download statistics counter tracks the downloads of the dataset from Hugging Face and may or may not be updated dynamically according to my level of success in getting this to work.  
-
 ![Download Statistics](download_statistics.png)
-
-If you'd like to use this tracker in your own tools for whatever reason, add an API call to this URL:
-
-```
-https://huggingface.co/api/datasets/danielrosehill/ifvi_valuefactors_deriv?expand[]=downloads&expand[]=downloadsAllTime"
-```
-
----
- 
 ## Impact Accounting
 
 ![alt text](images/graphics/1.png)
